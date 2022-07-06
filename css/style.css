@@ -23,6 +23,13 @@ body {
   font-size: 20px;
   color: var(--brand-color);
   text-transform: uppercase;
+  text-align: center;
+}
+
+@media (min-width: 890px) {
+  .page-title {
+    text-align: left;
+  }
 }
 
 .activities__header {
