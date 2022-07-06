@@ -51,6 +51,16 @@ img {
   }
 }
 
+.activities__heading {
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 890px) {
+  .activities__heading {
+    margin-bottom: 0;
+  }
+}
+
 .activities__cards-layout {
   flex-direction: column;
   gap: 3rem;
