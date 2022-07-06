@@ -92,6 +92,12 @@ img {
   z-index: -1;
 }
 
+@media (min-width: 890px) {
+  .card::after {
+    visibility: hidden;
+  }
+}
+
 .card__background-image {
   pointer-events: none;
   position: absolute;
@@ -114,6 +120,11 @@ img {
 @media (min-width: 890px) {
   .card__content {
     bottom: 50%;
+    visibility: hidden;
+  }
+
+  .card:hover > .card__content {
+    visibility: visible;
   }
 }
 
