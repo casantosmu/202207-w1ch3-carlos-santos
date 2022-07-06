@@ -1,3 +1,7 @@
+:root {
+  --brand-color: hsl(15, 84%, 57%);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -13,4 +17,10 @@ body {
   padding-bottom: 1rem;
   margin: auto;
   max-width: 890px;
+}
+
+.page-title {
+  font-size: 20px;
+  color: var(--brand-color);
+  text-transform: uppercase;
 }
