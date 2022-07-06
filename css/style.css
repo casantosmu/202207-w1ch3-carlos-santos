@@ -108,3 +108,15 @@ img {
   font-size: 20px;
   font-weight: bold;
 }
+
+.button {
+  background-color: var(--brand-color);
+  color: var(--white-color);
+  border: 0;
+  text-transform: uppercase;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
