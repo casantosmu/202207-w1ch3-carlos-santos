@@ -122,6 +122,10 @@ img {
     bottom: 50%;
     visibility: hidden;
   }
+
+  .card:hover > .card__content {
+    visibility: visible;
+  }
 }
 
 .card__heading {
