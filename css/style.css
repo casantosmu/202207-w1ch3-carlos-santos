@@ -30,6 +30,7 @@ img {
   color: var(--brand-color);
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 1rem;
 }
 
 @media (min-width: 890px) {
