@@ -1,5 +1,6 @@
 :root {
   --brand-color: hsl(15, 84%, 57%);
+  --white-color: hsl(360, 100%, 100%);
 }
 
 * {
@@ -81,4 +82,17 @@ img {
 .card__content {
   text-align: center;
   margin-top: 100%;
+}
+
+.card__heading {
+  color: var(--white-color);
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.card__description {
+  color: var(--white-color);
+  font-size: 20px;
+  font-weight: bold;
 }
