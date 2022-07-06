@@ -75,3 +75,8 @@ img {
   z-index: -1;
   object-fit: cover;
 }
+
+.card__content {
+  text-align: center;
+  margin-top: 100%;
+}
