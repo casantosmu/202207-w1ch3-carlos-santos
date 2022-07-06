@@ -24,3 +24,14 @@ body {
   color: var(--brand-color);
   text-transform: uppercase;
 }
+
+.activities__header {
+  text-align: center;
+}
+
+@media (min-width: 890px) {
+  .activities__header {
+    display: flex;
+    justify-content: space-between;
+  }
+}
