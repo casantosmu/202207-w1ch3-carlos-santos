@@ -61,6 +61,8 @@ img {
 }
 
 .card {
+  border-radius: 15px;
+  overflow: hidden;
   position: relative;
   flex: 1;
   height: 350px;
