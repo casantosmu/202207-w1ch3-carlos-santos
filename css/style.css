@@ -90,6 +90,12 @@ img {
   bottom: 2rem;
 }
 
+@media (min-width: 890px) {
+  .card__content {
+    bottom: 50%;
+  }
+}
+
 .card__heading {
   color: var(--white-color);
   font-weight: 400;
