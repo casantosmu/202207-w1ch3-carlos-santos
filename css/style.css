@@ -7,3 +7,10 @@
 body {
   font-family: "Nunito", sans-serif;
 }
+
+.container {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin: auto;
+  max-width: 890px;
+}
