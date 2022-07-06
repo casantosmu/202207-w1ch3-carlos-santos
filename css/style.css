@@ -12,6 +12,10 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
+img {
+  width: 100%;
+}
+
 .container {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -40,5 +44,18 @@ body {
   .activities__header {
     display: flex;
     justify-content: space-between;
+  }
+}
+
+.activities__cards-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+@media (min-width: 890px) {
+  .activities__cards-layout {
+    flex-direction: row;
+    gap: 1.5rem;
   }
 }
