@@ -96,6 +96,10 @@ img {
   .card::after {
     visibility: hidden;
   }
+
+  .card:hover::after {
+    visibility: visible;
+  }
 }
 
 .card__background-image {
